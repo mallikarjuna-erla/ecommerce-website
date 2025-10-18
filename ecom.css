@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 15px 50px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.nav-links li:hover {
+  color: #f39c12;
+}
+.hero {
+  text-align: center;
+  background-image: url("https://source.unsplash.com/1600x500/?shopping,mall");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 8px #000;
+}
+.hero button {
+  background-color: #f39c12;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+.hero button:hover {
+  background-color: #e67e22;
+}
+
+.products {
+  padding: 50px;
+  text-align: center;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product {
+  width: 250px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.product:hover {
+  transform: scale(1.05);
+}
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product button:hover {
+  background-color: #219150;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
